@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+    <h1 class="vinod">chepuri vinod</h1>
   </div>
 </template>
 
@@ -28,5 +29,9 @@ li {
 }
 a {
   color: #42b983;
+}
+.vinod {
+  color: #4CAF50;
+  font-size: 38px;
 }
 </style>
