@@ -1,9 +1,9 @@
 <template>
   <main>
     <div class="nav">
-      <routerLink to="/Home">Home</routerLink>
-      <routerLink to="/Users">Users</routerLink>
-      <routerLink to="Images">Images</routerLink>
+      <routerLink :to="{ name: 'Home' }">Home</routerLink>
+      <routerLink :to="{ name: 'Users' }">Users</routerLink>
+      <routerLink :to="{ name: 'Images' }">Images</routerLink>
     </div>
     <div class="viwer">
       <router-view/>
@@ -52,7 +52,7 @@ main {
   padding: 0.4em 0.7em;
 
 }
-.nav a:hover {
+.nav a:hover, .nav a.router-link-exact-active {
   color: rgb(0, 118, 0); 
   background-color: rgba(188, 237, 113, 0.748);
   border-radius: 6px;
