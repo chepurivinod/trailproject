@@ -18,6 +18,7 @@ setup() {
     const error = ref(null);
 
     const load = async () => {
+        // run        npx json-server --watch data/db.json --port 3000       in terminal for local server from data folder
         try {
             let data = await fetch('http://localhost:3000/posts');
             if(!data.ok) {
