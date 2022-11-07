@@ -4,7 +4,7 @@
         <h2>404 Page not found!</h2>
     </div>
 </template>
-<style>
+<style scoped>
 .Error {
     display: flex;
     flex-direction: column;
