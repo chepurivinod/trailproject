@@ -21,7 +21,7 @@ export default {
 
   setup(props) {
     let snippet = computed(() => {
-      return props.Post.body.substring(0, 120) + "....";
+      return props.Post.body.substring(0, 150) + "....";
     });
 
     return { snippet };
