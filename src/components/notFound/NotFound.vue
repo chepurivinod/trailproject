@@ -1,7 +1,7 @@
 <template>
     <div class="Error">
-        <h1>Oops</h1>
-        <h2>404 Page not found!</h2>
+        <h1>Oops <br> 404 Page not found!</h1>
+        <h2>To see home page data please run this"<br> npx json-server --watch data/db.json --port 3000 <br>" command in new terminL without qotes</h2>
     </div>
 </template>
 <style scoped>
