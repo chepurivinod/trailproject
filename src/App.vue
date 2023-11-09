@@ -34,7 +34,7 @@ export default {
 }
 main {
   display: flex;
-  height: 100vh;
+  min-height: 100vh;
 }
 .nav {
   display: flex;
