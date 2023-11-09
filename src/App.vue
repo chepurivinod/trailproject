@@ -3,7 +3,7 @@
     <div class="nav">
       <routerLink :to="{ name: 'Home' }">Home</routerLink>
       <routerLink :to="{ name: 'Users' }">Users</routerLink>
-      <routerLink :to="{ name: 'Images' }">Images</routerLink>
+      <routerLink :to="{ name: 'Employes' }">Employes</routerLink>
     </div>
     <div class="viwer">
       <router-view/>

@@ -3,9 +3,9 @@
 </template>
 
 <script>
-import employe from './Employes/employeNew.vue'
+import employe from './AllEmployes/employeNew.vue'
 export default {
-  name: "imagesPage",
+  name: "EmployesPage",
   components: { employe },
   setup() {
    

@@ -2,8 +2,7 @@
     <div class="emplyes_view">
         <div>
             <div>
-                <h1>employe Info</h1>
-                <p>Edit</p>
+                <h1>Add New Employee</h1>
             </div>
             <div>
                 <form @submit.prevent="newEmployee()">
@@ -15,7 +14,7 @@
                     <label for="email">Email : </label>
                     <input type="email" id="email" name="email" v-model="employee.email" required>
                 </div>
-                    <button class="formbutton">submit</button>
+                    <button class="form-submit">Submit</button>
                 </form>
             </div>
 
@@ -69,6 +68,15 @@ export default {
     display: grid;
     grid-template-columns: 1fr 3fr;
     padding: 0.5em
+}
+.form-submit {
+ border: none;
+ background-color: rgb(245, 51, 122);
+ padding: 8px;
+ border-radius: 10px;
+ color: white;
+ font-weight: bolder;
+ font-size: 16px;
 }
 
 </style>
