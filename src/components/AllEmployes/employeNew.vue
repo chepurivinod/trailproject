@@ -62,7 +62,7 @@ export default {
 <style scoped>
 .emplyes_view {
     display : grid;
-    grid-template-columns: 3fr 5fr;
+    grid-template-columns: 3fr minmax(200px, 5fr);
 }
 .form-controll {
     display: grid;
