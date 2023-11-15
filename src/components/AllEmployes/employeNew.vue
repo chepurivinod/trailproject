@@ -66,15 +66,15 @@ export default {
 }
 .form-controll {
     display: grid;
-    grid-template-columns: 1fr 3fr;
-    padding: 0.5em
+    grid-template-columns: 1fr minmax(200px, 3fr);
+    padding: 0.56em
 }
 .form-submit {
  border: none;
- background-color: rgb(245, 51, 122);
+ background-color: #f1197eeb;
  padding: 8px;
- border-radius: 10px;
- color: white;
+ border-radius: 0.7em;
+ color: #ffffffde;
  font-weight: bolder;
  font-size: 16px;
 }

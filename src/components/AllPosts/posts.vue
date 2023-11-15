@@ -9,7 +9,7 @@
 h1 {
     margin: 0;
     padding: 8px;
-    color:rgb(131, 20, 222);
+    color:rgb(142, 17, 244);
     font-size: 3.5em;
 }
 </style>
