@@ -40,9 +40,9 @@ main {
   display: flex;
   gap: 0.8em;
   flex-direction: column;
-  padding: 0.5em 0;
+  padding: 0.5em 0.4em;
   width: 120px;
-  background-color: #535151df;
+  background-color: #747373;
 }
 .nav a {
   display: block;
@@ -52,8 +52,13 @@ main {
   padding: 0.4em 0.7em;
 
 }
-.nav a:hover, .nav a.router-link-exact-active {
-  color: rgb(0, 118, 0); 
+.nav a:hover {
+  background-color: rgb(201, 198, 67); 
+  color: rgba(41, 107, 249, 0.905);
+  border-radius: 5px;
+}
+.nav a.router-link-exact-active {
+  color: rgb(1, 132, 1); 
   background-color: rgba(188, 237, 113, 0.748);
   border-radius: 6px;
 
